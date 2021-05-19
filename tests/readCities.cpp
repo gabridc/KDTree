@@ -12,7 +12,7 @@
 
 int main (void)
 {
-    QFile file("C:/Users/gadominguez/Downloads/cities1000.txt");
+    QFile file("cities1000.txt");
 
     if (!file.open(QIODevice::ReadOnly)) {
         Q_ASSERT_X(0, "", "Failed to open cities1000.txt file");
@@ -25,10 +25,13 @@ int main (void)
         str.remove('\r');
 
         QStringList list = str.split('\t');
-         double lat = list[4].toDouble();
+        QString poblation = list[1];
+        double lat = list[4].toDouble();
         double lon = list[5].toDouble();
+        QString countryPrefix = list[8];
+        QString continent = list[17];
 
-        std::cout << lat << ":" << lon << std::endl;
+        std::cout << poblation.toStdString() << ":" << lat << ":" << lon << ":" << countryPrefix.toStdString() << ":" <<continent.toStdString() << std::endl;
 
 
     }
