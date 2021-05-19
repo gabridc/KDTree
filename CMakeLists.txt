@@ -21,6 +21,7 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
 
 include_directories(.)
+include_directories(D:/Qt/5.12.5/mingw73_64/include)
 add_library(KDTree SHARED KDTree.cpp)
 target_include_directories(KDTree PUBLIC .)
 add_subdirectory(tests)
