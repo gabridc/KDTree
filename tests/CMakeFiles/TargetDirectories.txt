@@ -1,0 +1,4 @@
+/home/gabridc/Repositorio/KDE/KDTree/tests/CMakeFiles/rebuild_cache.dir
+/home/gabridc/Repositorio/KDE/KDTree/tests/CMakeFiles/edit_cache.dir
+/home/gabridc/Repositorio/KDE/KDTree/tests/CMakeFiles/readCities.dir
+/home/gabridc/Repositorio/KDE/KDTree/tests/CMakeFiles/readCities_autogen.dir

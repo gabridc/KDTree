@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/readCities.dir/readCities_autogen/mocs_compilation.cpp.o CMakeFiles/readCities.dir/readCities.cpp.o -o readCities   -L/home/gabridc/Repositorio/KDE/KDTree  -Wl,-rpath,/home/gabridc/Repositorio/KDE/KDTree:/home/gabridc/Qt/5.15.2/gcc_64/lib /home/gabridc/Qt/5.15.2/gcc_64/lib/libQt5Core.so.5.15.2 -lKDTree 
